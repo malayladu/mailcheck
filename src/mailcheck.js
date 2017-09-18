@@ -28,7 +28,7 @@ var Mailcheck = {
 
   defaultSecondLevelDomains: ["yahoo", "hotmail", "mail", "live", "outlook", "gmx"],
 
-  defaultTopLevelDomains: require('lists/default-top-level-domains'),
+  defaultTopLevelDomains: require('./lists/default-top-level-domains.json'),
 
   run: function(opts) {
     opts.domains = opts.domains || Mailcheck.defaultDomains;
