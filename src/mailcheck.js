@@ -13,7 +13,7 @@
 var Mailcheck = {
   domainThreshold: 2,
   secondLevelThreshold: 2,
-  topLevelThreshold: 2,
+  topLevelThreshold: 0,
 
   defaultDomains: ['msn.com', 'bellsouth.net',
     'telus.net', 'comcast.net', 'optusnet.com.au',
